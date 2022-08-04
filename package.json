@@ -1,0 +1,31 @@
+{
+	"name": "yandex-uslugi-parser",
+	"version": "3.0.0",
+	"description": "Parsing orders from Yandex Uslugi website",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node main.js"
+	},
+	"author": "Max Shane <wellloy1@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"undici": "^4.13.0",
+		"rucaptcha-client": "^2.0.8"
+	},
+	"devDependencies": {
+		"eslint": "^8.15.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"prettier": "^2.6.2"
+	},
+	"directories": {
+		"lib": "lib"
+	},
+	"keywords": [
+		"parser",
+		"yandex",
+		"uslugi"
+	]
+}
